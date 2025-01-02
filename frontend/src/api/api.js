@@ -5,7 +5,7 @@ import { clearToken, setToken } from "../features/authSlice";
 import { clearUser } from "../features/userSlice";
 
 // Base URL for the API
-const API_URL = "http://localhost:8000";
+const API_URL = "https://blog-backend-8qcy.onrender.com";
 
 // Public Axios Instance (No Authentication)
 export const publicAxiosInstance = axios.create({
